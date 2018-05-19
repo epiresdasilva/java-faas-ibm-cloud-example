@@ -6,7 +6,7 @@ Feel free to send me a feedback about that project and share your experience abo
 
 ## Setting up
 
-1. Create a Cloudant database: https://console.bluemix.net/catalog/services/cloudant-nosql-db
+1. Create a Cloudant database named "product": https://console.bluemix.net/catalog/services/cloudant-nosql-db
 2. Create a new credential for Cloudant database, something like below:
   ```json
   {
@@ -17,7 +17,8 @@ Feel free to send me a feedback about that project and share your experience abo
     "url": "https://9999999-9999-9999-9999-999999999999-bluemix:9999999999999999999999999999999999999999999999999999999999999999@9999999-9999-9999-9999-999999999999-bluemix.cloudant.com"
   }
   ```
-3. Install `bx` CLI: https://console.bluemix.net/openwhisk/learn/cli
+3. Change the *credentials* JSON with your credential in java-faas-ibm-cloud-util/src/main/resources/cloudant.json
+4. Install `bx` CLI: https://console.bluemix.net/openwhisk/learn/cli
 
 ## Building
 
