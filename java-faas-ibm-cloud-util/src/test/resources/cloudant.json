@@ -1,0 +1,14 @@
+{
+  "cloudantNoSQLDB": [
+    {
+      "name": "imobres",
+      "credentials": {
+        "username": "3efe0718-8b42-42b4-84c6-b829c045a6a6-bluemix",
+        "password": "af82f6ca4f7917ee9775d60d4aa52a7564eb4be0822eb0883a21b4b2aca43cd1",
+        "host": "3efe0718-8b42-42b4-84c6-b829c045a6a6-bluemix.cloudant.com",
+        "port": 443,
+        "url": "https://3efe0718-8b42-42b4-84c6-b829c045a6a6-bluemix:af82f6ca4f7917ee9775d60d4aa52a7564eb4be0822eb0883a21b4b2aca43cd1@3efe0718-8b42-42b4-84c6-b829c045a6a6-bluemix.cloudant.com"
+      }
+    }
+  ]
+}
